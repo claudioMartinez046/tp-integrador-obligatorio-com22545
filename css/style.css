@@ -17,6 +17,7 @@ font-family: verdana, Arial, Helvetica, sans-serif;
   padding-top: 22px;
   padding-right: 90px;
   
+  
 }
 .logo{
   float: left;
@@ -28,11 +29,6 @@ font-family: verdana, Arial, Helvetica, sans-serif;
    height: 80px;
 }
 
-/* .flex-container img{
-    width: 100px;
-    height: 100px;
-} */
-
 img.ba1{
   filter: brightness(0.5);
 }
@@ -40,6 +36,9 @@ img.ba1{
 nav a:hover {
   color: white;
   text-decoration:none;    
+}
+nav a{
+  padding:14px;
 }
 a:link {
   text-decoration: none;
@@ -49,7 +48,7 @@ a:visited {
   text-decoration: none;
 }
 #buy-green{
-    color: green;
+    color: #2D9B45;
 }
 a#buy-green:hover {
   color: rgba(43,165,70,255);
